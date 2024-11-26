@@ -84,7 +84,7 @@
 		"storybook": "^8.4.2",
 		"tsup": "^8.2.4",
 		"typescript": "^5.5.4",
-		"vite": "^5.3.5",
+		"vite": "^6.0.0",
 		"zx": "^8.0.0"
 	},
 	"peerDependencies": {
