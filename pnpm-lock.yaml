@@ -106,7 +106,7 @@ importers:
         version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)
       '@storybook/react-vite':
         specifier: ^8.4.2
-        version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+        version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@storybook/test':
         specifier: ^8.4.2
         version: 8.4.4(storybook@8.4.4(prettier@2.8.8))
@@ -127,10 +127,10 @@ importers:
         version: 18.3.1
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.3.3(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+        version: 4.3.3(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@vitest/browser':
         specifier: ^2.1.5
-        version: 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))(vitest@2.1.5)
+        version: 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))(vitest@2.1.5)
       '@vitest/expect':
         specifier: ^2.1.5
         version: 2.1.5
@@ -153,8 +153,8 @@ importers:
         specifier: ^5.5.4
         version: 5.6.3
       vite:
-        specifier: ^5.3.5
-        version: 5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)
+        specifier: ^6.0.0
+        version: 6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0)
       zx:
         specifier: ^8.0.0
         version: 8.2.2
@@ -194,7 +194,7 @@ importers:
         version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)
       '@storybook/react-vite':
         specifier: ^8.4.2
-        version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+        version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@storybook/test':
         specifier: ^8.4.2
         version: 8.4.4(storybook@8.4.4(prettier@2.8.8))
@@ -215,10 +215,10 @@ importers:
         version: 18.3.1
       '@vitejs/plugin-react':
         specifier: ^4.3.3
-        version: 4.3.3(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+        version: 4.3.3(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@vitest/browser':
         specifier: ^2.1.5
-        version: 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))(vitest@2.1.5)
+        version: 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))(vitest@2.1.5)
       globals:
         specifier: ^15.11.0
         version: 15.12.0
@@ -276,7 +276,7 @@ importers:
         version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)
       '@storybook/react-vite':
         specifier: ^8.4.2
-        version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+        version: 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@storybook/test':
         specifier: ^8.4.2
         version: 8.4.4(storybook@8.4.4(prettier@2.8.8))
@@ -300,10 +300,10 @@ importers:
         version: 18.3.1
       '@vitejs/plugin-react':
         specifier: ^4.3.3
-        version: 4.3.3(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+        version: 4.3.3(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@vitest/browser':
         specifier: ^2.1.5
-        version: 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))(vitest@2.1.5)
+        version: 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))(vitest@2.1.5)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -3407,6 +3407,46 @@ packages:
       terser:
         optional: true
 
+  vite@6.0.0:
+    resolution: {integrity: sha512-Q2+5yQV79EdnpbNxjD3/QHVMCBaQ3Kpd4/uL51UGuh38bIIM+s4o3FqyCzRvTRwFb+cWIUeZvaWwS9y2LD2qeQ==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
+      jiti: '>=1.21.0'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      sass-embedded: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
+
   vitest@2.1.5:
     resolution: {integrity: sha512-P4ljsdpuzRTPI/kbND2sDZ4VmieerR2c9szEZpjc+98Z9ebvnXmM5+0tHEKqYZumXqlvnmfWsjeFOjXVriDG7A==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -4198,13 +4238,13 @@ snapshots:
 
   '@istanbuljs/schema@0.1.3': {}
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
       glob: 7.2.3
       glob-promise: 4.2.2(glob@7.2.3)
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.6.3)
-      vite: 5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)
+      vite: 6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0)
     optionalDependencies:
       typescript: 5.6.3
 
@@ -4520,13 +4560,13 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/builder-vite@8.4.4(storybook@8.4.4(prettier@2.8.8))(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))':
+  '@storybook/builder-vite@8.4.4(storybook@8.4.4(prettier@2.8.8))(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
       '@storybook/csf-plugin': 8.4.4(storybook@8.4.4(prettier@2.8.8))
       browser-assert: 1.2.1
       storybook: 8.4.4(prettier@2.8.8)
       ts-dedent: 2.2.0
-      vite: 5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)
+      vite: 6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0)
 
   '@storybook/components@8.4.4(storybook@8.4.4(prettier@2.8.8))':
     dependencies:
@@ -4574,7 +4614,7 @@ snapshots:
       storybook: 8.4.4(prettier@2.8.8)
       ts-dedent: 2.2.0
     optionalDependencies:
-      '@vitest/browser': 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))(vitest@2.1.5)
+      '@vitest/browser': 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))(vitest@2.1.5)
       '@vitest/runner': 2.1.5
       vitest: 2.1.5(@types/node@22.9.0)(@vitest/browser@2.1.5)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))
     transitivePeerDependencies:
@@ -4608,11 +4648,11 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.4.4(prettier@2.8.8)
 
-  '@storybook/react-vite@8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))':
+  '@storybook/react-vite@8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.25.0)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@rollup/pluginutils': 5.1.3(rollup@4.25.0)
-      '@storybook/builder-vite': 8.4.4(storybook@8.4.4(prettier@2.8.8))(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+      '@storybook/builder-vite': 8.4.4(storybook@8.4.4(prettier@2.8.8))(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@storybook/react': 8.4.4(@storybook/test@8.4.4(storybook@8.4.4(prettier@2.8.8)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.4(prettier@2.8.8))(typescript@5.6.3)
       find-up: 5.0.0
       magic-string: 0.30.12
@@ -4622,7 +4662,7 @@ snapshots:
       resolve: 1.22.8
       storybook: 8.4.4(prettier@2.8.8)
       tsconfig-paths: 4.2.0
-      vite: 5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)
+      vite: 6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0)
     transitivePeerDependencies:
       - '@storybook/test'
       - rollup
@@ -4791,14 +4831,14 @@ snapshots:
 
   '@types/uuid@9.0.8': {}
 
-  '@vitejs/plugin-react@4.3.3(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))':
+  '@vitejs/plugin-react@4.3.3(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)
+      vite: 6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4807,6 +4847,28 @@ snapshots:
       '@testing-library/dom': 10.4.0
       '@testing-library/user-event': 14.5.2(@testing-library/dom@10.4.0)
       '@vitest/mocker': 2.1.5(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))
+      '@vitest/utils': 2.1.5
+      magic-string: 0.30.12
+      msw: 2.6.4(@types/node@22.9.0)(typescript@5.6.3)
+      sirv: 3.0.0
+      tinyrainbow: 1.2.0
+      vitest: 2.1.5(@types/node@22.9.0)(@vitest/browser@2.1.5)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))
+      ws: 8.18.0
+    optionalDependencies:
+      playwright: 1.48.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - bufferutil
+      - typescript
+      - utf-8-validate
+      - vite
+    optional: true
+
+  '@vitest/browser@2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))(vitest@2.1.5)':
+    dependencies:
+      '@testing-library/dom': 10.4.0
+      '@testing-library/user-event': 14.5.2(@testing-library/dom@10.4.0)
+      '@vitest/mocker': 2.1.5(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))
       '@vitest/utils': 2.1.5
       magic-string: 0.30.12
       msw: 2.6.4(@types/node@22.9.0)(typescript@5.6.3)
@@ -4865,6 +4927,15 @@ snapshots:
     optionalDependencies:
       msw: 2.6.4(@types/node@22.9.0)(typescript@5.6.3)
       vite: 5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)
+
+  '@vitest/mocker@2.1.5(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3))(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))':
+    dependencies:
+      '@vitest/spy': 2.1.5
+      estree-walker: 3.0.3
+      magic-string: 0.30.12
+    optionalDependencies:
+      msw: 2.6.4(@types/node@22.9.0)(typescript@5.6.3)
+      vite: 6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0)
 
   '@vitest/pretty-format@2.0.5':
     dependencies:
@@ -6605,6 +6676,17 @@ snapshots:
       '@types/node': 22.9.0
       fsevents: 2.3.3
 
+  vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0):
+    dependencies:
+      esbuild: 0.24.0
+      postcss: 8.4.49
+      rollup: 4.25.0
+    optionalDependencies:
+      '@types/node': 22.9.0
+      fsevents: 2.3.3
+      jiti: 1.21.6
+      yaml: 2.6.0
+
   vitest@2.1.5(@types/node@22.9.0)(@vitest/browser@2.1.5)(msw@2.6.4(@types/node@22.9.0)(typescript@5.6.3)):
     dependencies:
       '@vitest/expect': 2.1.5
@@ -6629,7 +6711,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.9.0
-      '@vitest/browser': 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@5.4.11(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0))(vitest@2.1.5)
+      '@vitest/browser': 2.1.5(@types/node@22.9.0)(playwright@1.48.2)(typescript@5.6.3)(vite@6.0.0(patch_hash=xgqt7nmj25gqyng6hwpkq4rvp4)(@types/node@22.9.0)(jiti@1.21.6)(yaml@2.6.0))(vitest@2.1.5)
     transitivePeerDependencies:
       - less
       - lightningcss
