@@ -17,19 +17,31 @@
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports.biome": "explicit"
+		}
 	},
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports.biome": "explicit"
+		}
 	},
 	"[typescript]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports.biome": "explicit"
+		}
 	},
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports.biome": "explicit"
+		}
 	},
 	"cSpell.words": [
 		"biomejs",
@@ -47,10 +59,23 @@
 		"ssim",
 		"testid",
 		"tsup",
+		"vite",
 		"Vitest"
 	],
 	"editor.codeActionsOnSave": {
 		"source.organizeImports.biome": "explicit"
 	},
-	"git-graph.dialog.general.referenceInputSpaceSubstitution": "Hyphen"
+	"git-graph.dialog.general.referenceInputSpaceSubstitution": "Hyphen",
+	"material-icon-theme.files.associations": {
+		"*.accept.ts": "test-ts",
+		"*.excalidraw": "maven",
+		"*.integrate.ts": "test-ts",
+		"*.spec.node.ts": "test-ts",
+		"*.study.ts": "test-ts",
+		"*.system.ts": "test-ts",
+		"*.unit.node.ts": "test-ts",
+		"*.unit.ts": "test-ts",
+		"vitest.config.node.ts": "vitest",
+		"vitest.config.webdriverio.ts": "vitest"
+	}
 }
