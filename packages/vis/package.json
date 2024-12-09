@@ -43,14 +43,18 @@
 	"scripts": {
 		"build": "tsup",
 		"build:sb": "storybook build",
-		"build:watch": "pnpm build --watch",
+		"c": "vitest run --coverage",
 		"clean": "rimraf dist",
-		"dev": "run-p build:watch \"sb --quiet\"",
+		"coverage": "vitest run --coverage",
+		"dev": "run-p build:watch w",
 		"nuke": "rimraf node_modules",
 		"prerelease": "zx scripts/prepublish-checks.js",
 		"sb": "storybook dev -p 6006",
+		"t:n": "vitest run -c vitest.config.node.ts",
+		"t:wb": "cross-env BROWSER=firefox BROWSERPROVIDER=webdriverio vitest run",
 		"test": "vitest run --coverage",
-		"w": "vitest"
+		"w": "vitest",
+		"w:wb": "cross-env BROWSER=firefox BROWSERPROVIDER=webdriverio vitest"
 	},
 	"dependencies": {
 		"dedent": "^1.5.1",
@@ -76,15 +80,19 @@
 		"@types/react": "^18.2.65",
 		"@types/react-dom": "^18.2.21",
 		"@vitejs/plugin-react": "^4.2.1",
-		"@vitest/browser": "^2.1.5",
-		"@vitest/expect": "^2.1.5",
+		"@vitest/browser": "^2.1.8",
+		"@vitest/coverage-istanbul": "^2.1.8",
+		"@vitest/expect": "^2.1.8",
 		"boxen": "^8.0.0",
+		"cross-env": "^7.0.3",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"storybook": "^8.4.2",
 		"tsup": "^8.2.4",
-		"typescript": "^5.5.4",
+		"typescript": "^5.7.2",
 		"vite": "^5.3.5",
+		"vitest-browser-react": "^0.0.4",
+		"webdriverio": "^9.4.1",
 		"zx": "^8.0.0"
 	},
 	"peerDependencies": {
@@ -99,7 +107,9 @@
 	"bundler": {
 		"exportEntries": [
 			"src/index.ts",
-			"src/vitest-setup.ts",
+			"src/vitest-setup.ts"
+		],
+		"previewEntries": [
 			"src/preview.ts"
 		],
 		"nodeEntries": [

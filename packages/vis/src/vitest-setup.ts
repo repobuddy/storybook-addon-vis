@@ -1,8 +1,8 @@
-import './augment.js'
+import './augment.ts'
 
-export * from './vis.js'
-export * from './@vitest/browser/context.js'
-export * from './should_take_snapshot.js'
+export * from './client/vis.ts'
+export * from './client/@vitest/browser/context.ts'
+export * from './client/should_take_snapshot.ts'
 
 // may not be needed
-export * from './expect.to_match_image_snapshot.js'
+export * from './client/expect.to_match_image_snapshot.ts'
